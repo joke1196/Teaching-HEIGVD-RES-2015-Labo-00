@@ -36,7 +36,7 @@ public class Application {
 }
 
  interface IInstrument{
-      
+
       public String play();
       
       public int getSoundVolume();
@@ -46,9 +46,9 @@ public class Application {
 
   class Trumpet implements IInstrument{
       
-      String sound = "pouet";
-      String color = "golden";
-      int volume = 10;
+      private String sound = "pouet";
+      private String color = "golden";
+      private int volume = 10;
       
       
       @Override
@@ -69,9 +69,9 @@ public class Application {
   
   class Flute implements IInstrument{
       
-      String sound= "FUUuuuuu";
-      String color = "brown";
-      int volume = 5;
+      private String sound= "FUUuuuuu";
+      private String color = "brown";
+      private int volume = 5;
       
       @Override
       public String play(){
